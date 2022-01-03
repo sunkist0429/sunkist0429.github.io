@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2021/10/04/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>markdown_cheatsheet</title>
     <url>/2022/01/01/blog/markdown-cheatsheet/</url>
     <content><![CDATA[<h1 id="Markdown-Cheat-Sheet"><a href="#Markdown-Cheat-Sheet" class="headerlink" title="Markdown Cheat Sheet"></a>Markdown Cheat Sheet</h1><h2 id="Basic-Syntax"><a href="#Basic-Syntax" class="headerlink" title="Basic Syntax"></a>Basic Syntax</h2><table>
@@ -157,31 +175,19 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2021/10/04/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Hexo 筆記 - 安裝</title>
-    <url>/2021/10/04/hexo/hexo-note/</url>
-    <content><![CDATA[<h2 id="Install-Node-js"><a href="#Install-Node-js" class="headerlink" title="Install  Node.js"></a>Install  Node.js</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://nodejs.org/en/</span><br></pre></td></tr></table></figure>
-<h2 id="Install-Hexo-cli"><a href="#Install-Hexo-cli" class="headerlink" title="Install Hexo cli"></a>Install Hexo cli</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+    <url>/2021/10/04/blog/hexo-note/</url>
+    <content><![CDATA[<h1 id="Hexo-筆記-安裝"><a href="#Hexo-筆記-安裝" class="headerlink" title="Hexo 筆記 - 安裝"></a>Hexo 筆記 - 安裝</h1><h2 id="node-js"><a href="#node-js" class="headerlink" title="node.js"></a>node.js</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://nodejs.org/en/</span><br></pre></td></tr></table></figure>
+<h2 id="Hexo-cli"><a href="#Hexo-cli" class="headerlink" title="Hexo cli"></a>Hexo cli</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 
-<h2 id="建立-blog"><a href="#建立-blog" class="headerlink" title="建立 blog"></a>建立 blog</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init sunkist_blog</span><br><span class="line">cd sunkist_blog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<h2 id="建立Sunkist-blog"><a href="#建立Sunkist-blog" class="headerlink" title="建立Sunkist blog"></a>建立Sunkist blog</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init sunkist_blog</span><br><span class="line">cd sunkist_blog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
 
+<h2 id="New-post"><a href="#New-post" class="headerlink" title="New post"></a>New post</h2><p><code>$ hexo new [layout] &lt;title&gt;</code></p>
+<h2 id="Deploy"><a href="#Deploy" class="headerlink" title="Deploy"></a>Deploy</h2><p><code>hexo clean &amp;&amp; hexo deploy</code></p>
+<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>Reference:</p>
+<ul>
+<li><a class="link"   href="https://hexo.io/docs/" >https://hexo.io/docs/<i class="fas fa-external-link-alt"></i></a></li>
+</ul>
 ]]></content>
       <tags>
         <tag>Hexo</tag>
