@@ -39,6 +39,162 @@
       </tags>
   </entry>
   <entry>
+    <title>markdown_cheatsheet</title>
+    <url>/2022/01/01/blog/markdown-cheatsheet/</url>
+    <content><![CDATA[<h1 id="Markdown-Cheat-Sheet"><a href="#Markdown-Cheat-Sheet" class="headerlink" title="Markdown Cheat Sheet"></a>Markdown Cheat Sheet</h1><h2 id="Basic-Syntax"><a href="#Basic-Syntax" class="headerlink" title="Basic Syntax"></a>Basic Syntax</h2><table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Syntax</th>
+<th>Preview</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Heading</td>
+<td># H1<br>## H2<br>### H3</td>
+<td></td>
+</tr>
+<tr>
+<td>Bold</td>
+<td><code>**bold text**</code><br><code>__bold text__</code></td>
+<td><strong>bold text</strong><br><strong>bold text</strong></td>
+</tr>
+<tr>
+<td>Italic</td>
+<td><code>*italicized text*</code></td>
+<td><em>italicized text</em></td>
+</tr>
+<tr>
+<td>Blockquote</td>
+<td><code>&gt; blockquote</code></td>
+<td><a href="#Blockquote">Preview</a></td>
+</tr>
+<tr>
+<td>Ordered List</td>
+<td><code>1. First item</code><br><code>1. Second item</code><br><code>1. Third item</code></td>
+<td><a href="#Ordered-List">Preview</a></td>
+</tr>
+<tr>
+<td>Unordered List</td>
+<td><code>- First item</code><br><code>- Second item</code><br><code>- Third item</code></td>
+<td><a href="#Unordered-List">Preview</a></td>
+</tr>
+<tr>
+<td>Code</td>
+<td><code>`code`</code></td>
+<td><a href="#Code">Preview</a></td>
+</tr>
+<tr>
+<td>Horizontal Rule</td>
+<td><code>---</code> <br> <code>***</code></td>
+<td><a href="#Horizontal-Rule">Preview</a></td>
+</tr>
+<tr>
+<td>Link (url)</td>
+<td><code>[title](https://www.example.com)</code></td>
+<td><a class="link"   href="https://www.example.com/" >title<i class="fas fa-external-link-alt"></i></a></td>
+</tr>
+<tr>
+<td>Link (header)</td>
+<td><code>[title](#heading-id)</code></td>
+<td><a href="#heading-id">title</a></td>
+</tr>
+<tr>
+<td>Image</td>
+<td><code>![alt text](image.jpg)</code></td>
+<td><img src="image.jpg" alt="alt text"></td>
+</tr>
+</tbody></table>
+<h2 id="Extended"><a href="#Extended" class="headerlink" title="Extended"></a>Extended</h2><table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Syntax</th>
+<th>Preview</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Table</td>
+<td><code>| Syntax | Description |</code><br><code>| ----------- | ----------- |</code><br><code>| Header | Title |</code><br><code>| Paragraph | Text |</code></td>
+<td><a class="link"   href="https://www.tablesgenerator.com/markdown_tables#" >Table Generator<i class="fas fa-external-link-alt"></i></a></td>
+</tr>
+<tr>
+<td>Fenced Code Block</td>
+<td><code>&#123;</code><br> <code>&quot;firstName&quot;: &quot;John&quot;,</code><br> <code>&quot;lastName&quot;: &quot;Smith&quot;,</code><br> <code>&quot;age&quot;: 25</code><br><code>&#125;</code></td>
+<td><a href="#Fenced-Code-Block">Preview</a></td>
+</tr>
+<tr>
+<td>Footnote</td>
+<td><code>Here&#39;s a sentence with a footnote. [^1]</code><br><code>[^1]: This is the footnote.</code></td>
+<td><a href="#Footnote">Preview</a></td>
+</tr>
+<tr>
+<td>Definition List</td>
+<td><code>term</code><br><code>: definition</code></td>
+<td><a href="#Definition-List">Preview</a></td>
+</tr>
+<tr>
+<td>Strikethrough</td>
+<td><code>~any text here~</code></td>
+<td><del>any text here</del></td>
+</tr>
+<tr>
+<td>Task List</td>
+<td><code>- [x] Write the press release</code><br><code>- [ ] Update the website</code><br><code>- [ ] Contact the media</code></td>
+<td><a href="#Task-List">Preview</a></td>
+</tr>
+<tr>
+<td>Highlight</td>
+<td><code>The words that need to highlight is ==important words are here==.</code></td>
+<td><a href="#highlight">Preview</a></td>
+</tr>
+<tr>
+<td>Subscript</td>
+<td><code>H~2~O</code></td>
+<td><a href="#Subscript">Preview</a></td>
+</tr>
+<tr>
+<td>Superscript</td>
+<td><code>X^2^</code></td>
+<td><a href="#Superscript">Preview</a></td>
+</tr>
+</tbody></table>
+<h2 id="Preview"><a href="#Preview" class="headerlink" title="Preview"></a>Preview</h2><h3 id="Blockquote"><a href="#Blockquote" class="headerlink" title="Blockquote"></a>Blockquote</h3><blockquote>
+<p>blockquote</p>
+</blockquote>
+<h3 id="Ordered-List"><a href="#Ordered-List" class="headerlink" title="Ordered List"></a>Ordered List</h3><ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+<h3 id="Unordered-List"><a href="#Unordered-List" class="headerlink" title="Unordered List"></a>Unordered List</h3><ul>
+<li>First item  </li>
+<li>Second item  </li>
+<li>Third item</li>
+</ul>
+<h3 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h3><p><code>code</code></p>
+<h3 id="Horizontal-Rule"><a href="#Horizontal-Rule" class="headerlink" title="Horizontal Rule"></a>Horizontal Rule</h3><hr>
+<hr>
+<h3 id="Fenced-Code-Block"><a href="#Fenced-Code-Block" class="headerlink" title="Fenced Code Block"></a>Fenced Code Block</h3><p>{<br>“firstName”: “John”,<br>“lastName”: “Smith”,<br>“age”: 25<br>}</p>
+<h3 id="Footnote"><a href="#Footnote" class="headerlink" title="Footnote"></a>Footnote</h3><p>A sentence with a footnote. [^1]<br>[^1]: This is the footnote.</p>
+<h3 id="Definition-List"><a href="#Definition-List" class="headerlink" title="Definition List"></a>Definition List</h3><dl><dt>term</dt><dd>definition</dd></dl><h3 id="Task-List"><a href="#Task-List" class="headerlink" title="Task List"></a>Task List</h3><ul>
+<li><input checked="" disabled="" type="checkbox"> Write the press release</li>
+<li><input disabled="" type="checkbox"> Update the website</li>
+<li><input disabled="" type="checkbox"> Contact the media</li>
+</ul>
+<h3 id="Highlight"><a href="#Highlight" class="headerlink" title="Highlight"></a>Highlight</h3><p>The words that need to highlight is ==important words are here==.</p>
+<h3 id="Subscript"><a href="#Subscript" class="headerlink" title="Subscript"></a>Subscript</h3><p>H<del>2</del>O</p>
+<h3 id="Superscript"><a href="#Superscript" class="headerlink" title="Superscript"></a>Superscript</h3><p>X^2^</p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul>
+<li><a class="link"   href="https://www.markdownguide.org/cheat-sheet/" >https://www.markdownguide.org/cheat-sheet/<i class="fas fa-external-link-alt"></i></a></li>
+<li><a class="link"   href="https://www.tablesgenerator.com/markdown_tables" >https://www.tablesgenerator.com/markdown_tables<i class="fas fa-external-link-alt"></i></a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>如何停止憂慮開創人生</title>
     <url>/2022/10/16/carnegie/how-to-stop-worrying-%EF%BC%86-start-living/</url>
     <content><![CDATA[<h1 id="如何停止憂慮開創人生"><a href="#如何停止憂慮開創人生" class="headerlink" title="如何停止憂慮開創人生"></a>如何停止憂慮開創人生</h1><h2 id="克服憂慮的準則"><a href="#克服憂慮的準則" class="headerlink" title="克服憂慮的準則"></a>克服憂慮的準則</h2><ol>

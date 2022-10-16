@@ -9,7 +9,7 @@
     
     <title>
         
-            Hexo 筆記 - 安裝 |
+            markdown_cheatsheet |
         
         Sunkist Note
     </title>
@@ -137,7 +137,7 @@
     <div class="article-content-container">
 
         <div class="article-title">
-            <span class="title-hover-animation">Hexo 筆記 - 安裝</span>
+            <span class="title-hover-animation">markdown_cheatsheet</span>
         </div>
 
         
@@ -153,7 +153,7 @@
                     <div class="meta-info">
                         <div class="article-meta-info">
     <span class="article-date article-meta-item">
-        <i class="fas fa-edit"></i>&nbsp;2021-10-04 19:25:40
+        <i class="fas fa-edit"></i>&nbsp;2022-01-01 22:10:32
     </span>
     
     
@@ -162,7 +162,7 @@
             <ul>
                 
                     <li>
-                        <a href="/tags/Hexo/">Hexo</a>&nbsp;
+                        <a href="/tags/markdown/">markdown</a>&nbsp;
                     </li>
                 
             </ul>
@@ -185,17 +185,153 @@
         
 
         <div class="article-content markdown-body">
-            <h1 id="Hexo-筆記-安裝"><a href="#Hexo-筆記-安裝" class="headerlink" title="Hexo 筆記 - 安裝"></a>Hexo 筆記 - 安裝</h1><h2 id="node-js"><a href="#node-js" class="headerlink" title="node.js"></a>node.js</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://nodejs.org/en/</span><br></pre></td></tr></table></figure>
-<h2 id="Hexo-cli"><a href="#Hexo-cli" class="headerlink" title="Hexo cli"></a>Hexo cli</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-
-<h2 id="建立Sunkist-blog"><a href="#建立Sunkist-blog" class="headerlink" title="建立Sunkist blog"></a>建立Sunkist blog</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init sunkist_blog</span><br><span class="line">cd sunkist_blog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
-
-<h2 id="New-post"><a href="#New-post" class="headerlink" title="New post"></a>New post</h2><p><code>$ hexo new [layout] &lt;title&gt;</code></p>
-<h2 id="Deploy"><a href="#Deploy" class="headerlink" title="Deploy"></a>Deploy</h2><p><code>hexo clean &amp;&amp; hexo deploy</code></p>
-<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>Reference:</p>
-<ul>
-<li><a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/" >https://hexo.io/docs/<i class="fas fa-external-link-alt"></i></a></li>
-<li><a class="link"   target="_blank" rel="noopener" href="https://hexo.io/zh-tw/docs/configuration" >https://hexo.io/zh-tw/docs/configuration<i class="fas fa-external-link-alt"></i></a></li>
+            <h1 id="Markdown-Cheat-Sheet"><a href="#Markdown-Cheat-Sheet" class="headerlink" title="Markdown Cheat Sheet"></a>Markdown Cheat Sheet</h1><h2 id="Basic-Syntax"><a href="#Basic-Syntax" class="headerlink" title="Basic Syntax"></a>Basic Syntax</h2><table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Syntax</th>
+<th>Preview</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Heading</td>
+<td># H1<br>## H2<br>### H3</td>
+<td></td>
+</tr>
+<tr>
+<td>Bold</td>
+<td><code>**bold text**</code><br><code>__bold text__</code></td>
+<td><strong>bold text</strong><br><strong>bold text</strong></td>
+</tr>
+<tr>
+<td>Italic</td>
+<td><code>*italicized text*</code></td>
+<td><em>italicized text</em></td>
+</tr>
+<tr>
+<td>Blockquote</td>
+<td><code>&gt; blockquote</code></td>
+<td><a href="#Blockquote">Preview</a></td>
+</tr>
+<tr>
+<td>Ordered List</td>
+<td><code>1. First item</code><br><code>1. Second item</code><br><code>1. Third item</code></td>
+<td><a href="#Ordered-List">Preview</a></td>
+</tr>
+<tr>
+<td>Unordered List</td>
+<td><code>- First item</code><br><code>- Second item</code><br><code>- Third item</code></td>
+<td><a href="#Unordered-List">Preview</a></td>
+</tr>
+<tr>
+<td>Code</td>
+<td><code>`code`</code></td>
+<td><a href="#Code">Preview</a></td>
+</tr>
+<tr>
+<td>Horizontal Rule</td>
+<td><code>---</code> <br> <code>***</code></td>
+<td><a href="#Horizontal-Rule">Preview</a></td>
+</tr>
+<tr>
+<td>Link (url)</td>
+<td><code>[title](https://www.example.com)</code></td>
+<td><a class="link"   target="_blank" rel="noopener" href="https://www.example.com/" >title<i class="fas fa-external-link-alt"></i></a></td>
+</tr>
+<tr>
+<td>Link (header)</td>
+<td><code>[title](#heading-id)</code></td>
+<td><a href="#heading-id">title</a></td>
+</tr>
+<tr>
+<td>Image</td>
+<td><code>![alt text](image.jpg)</code></td>
+<td><img src="image.jpg" alt="alt text"></td>
+</tr>
+</tbody></table>
+<h2 id="Extended"><a href="#Extended" class="headerlink" title="Extended"></a>Extended</h2><table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Syntax</th>
+<th>Preview</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Table</td>
+<td><code>| Syntax | Description |</code><br><code>| ----------- | ----------- |</code><br><code>| Header | Title |</code><br><code>| Paragraph | Text |</code></td>
+<td><a class="link"   target="_blank" rel="noopener" href="https://www.tablesgenerator.com/markdown_tables#" >Table Generator<i class="fas fa-external-link-alt"></i></a></td>
+</tr>
+<tr>
+<td>Fenced Code Block</td>
+<td><code>&#123;</code><br> <code>&quot;firstName&quot;: &quot;John&quot;,</code><br> <code>&quot;lastName&quot;: &quot;Smith&quot;,</code><br> <code>&quot;age&quot;: 25</code><br><code>&#125;</code></td>
+<td><a href="#Fenced-Code-Block">Preview</a></td>
+</tr>
+<tr>
+<td>Footnote</td>
+<td><code>Here&#39;s a sentence with a footnote. [^1]</code><br><code>[^1]: This is the footnote.</code></td>
+<td><a href="#Footnote">Preview</a></td>
+</tr>
+<tr>
+<td>Definition List</td>
+<td><code>term</code><br><code>: definition</code></td>
+<td><a href="#Definition-List">Preview</a></td>
+</tr>
+<tr>
+<td>Strikethrough</td>
+<td><code>~any text here~</code></td>
+<td><del>any text here</del></td>
+</tr>
+<tr>
+<td>Task List</td>
+<td><code>- [x] Write the press release</code><br><code>- [ ] Update the website</code><br><code>- [ ] Contact the media</code></td>
+<td><a href="#Task-List">Preview</a></td>
+</tr>
+<tr>
+<td>Highlight</td>
+<td><code>The words that need to highlight is ==important words are here==.</code></td>
+<td><a href="#highlight">Preview</a></td>
+</tr>
+<tr>
+<td>Subscript</td>
+<td><code>H~2~O</code></td>
+<td><a href="#Subscript">Preview</a></td>
+</tr>
+<tr>
+<td>Superscript</td>
+<td><code>X^2^</code></td>
+<td><a href="#Superscript">Preview</a></td>
+</tr>
+</tbody></table>
+<h2 id="Preview"><a href="#Preview" class="headerlink" title="Preview"></a>Preview</h2><h3 id="Blockquote"><a href="#Blockquote" class="headerlink" title="Blockquote"></a>Blockquote</h3><blockquote>
+<p>blockquote</p>
+</blockquote>
+<h3 id="Ordered-List"><a href="#Ordered-List" class="headerlink" title="Ordered List"></a>Ordered List</h3><ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+<h3 id="Unordered-List"><a href="#Unordered-List" class="headerlink" title="Unordered List"></a>Unordered List</h3><ul>
+<li>First item  </li>
+<li>Second item  </li>
+<li>Third item</li>
+</ul>
+<h3 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h3><p><code>code</code></p>
+<h3 id="Horizontal-Rule"><a href="#Horizontal-Rule" class="headerlink" title="Horizontal Rule"></a>Horizontal Rule</h3><hr>
+<hr>
+<h3 id="Fenced-Code-Block"><a href="#Fenced-Code-Block" class="headerlink" title="Fenced Code Block"></a>Fenced Code Block</h3><p>{<br>“firstName”: “John”,<br>“lastName”: “Smith”,<br>“age”: 25<br>}</p>
+<h3 id="Footnote"><a href="#Footnote" class="headerlink" title="Footnote"></a>Footnote</h3><p>A sentence with a footnote. [^1]<br>[^1]: This is the footnote.</p>
+<h3 id="Definition-List"><a href="#Definition-List" class="headerlink" title="Definition List"></a>Definition List</h3><dl><dt>term</dt><dd>definition</dd></dl><h3 id="Task-List"><a href="#Task-List" class="headerlink" title="Task List"></a>Task List</h3><ul>
+<li><input checked="" disabled="" type="checkbox"> Write the press release</li>
+<li><input disabled="" type="checkbox"> Update the website</li>
+<li><input disabled="" type="checkbox"> Contact the media</li>
+</ul>
+<h3 id="Highlight"><a href="#Highlight" class="headerlink" title="Highlight"></a>Highlight</h3><p>The words that need to highlight is ==important words are here==.</p>
+<h3 id="Subscript"><a href="#Subscript" class="headerlink" title="Subscript"></a>Subscript</h3><p>H<del>2</del>O</p>
+<h3 id="Superscript"><a href="#Superscript" class="headerlink" title="Superscript"></a>Superscript</h3><p>X^2^</p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul>
+<li><a class="link"   target="_blank" rel="noopener" href="https://www.markdownguide.org/cheat-sheet/" >https://www.markdownguide.org/cheat-sheet/<i class="fas fa-external-link-alt"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://www.tablesgenerator.com/markdown_tables" >https://www.tablesgenerator.com/markdown_tables<i class="fas fa-external-link-alt"></i></a></li>
 </ul>
 
         </div>
@@ -208,13 +344,13 @@
                     <div class="article-prev">
                         <a class="prev"
                            rel="prev"
-                           href="/2022/01/01/blog/markdown-cheatsheet/"
+                           href="/2022/10/02/carnegie/how-to-win-friends-and-influence-people/"
                         >
                             <span class="left arrow-icon flex-center">
                               <i class="fas fa-chevron-left"></i>
                             </span>
                             <span class="title flex-center">
-                                <span class="post-nav-title-item">markdown_cheatsheet</span>
+                                <span class="post-nav-title-item">人性的弱點</span>
                                 <span class="post-nav-item">Prev posts</span>
                             </span>
                         </a>
@@ -224,10 +360,10 @@
                     <div class="article-next">
                         <a class="next"
                            rel="next"
-                           href="/2021/10/04/blog/hello-world/"
+                           href="/2021/10/04/blog/hexo-note/"
                         >
                             <span class="title flex-center">
-                                <span class="post-nav-title-item">Hello World</span>
+                                <span class="post-nav-title-item">Hexo 筆記 - 安裝</span>
                                 <span class="post-nav-item">Next posts</span>
                             </span>
                             <span class="right arrow-icon flex-center">
@@ -411,7 +547,7 @@
         <aside class="page-aside">
             <div class="post-toc-wrap">
     <div class="post-toc">
-        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo-%E7%AD%86%E8%A8%98-%E5%AE%89%E8%A3%9D"><span class="nav-text">Hexo 筆記 - 安裝</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#node-js"><span class="nav-text">node.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo-cli"><span class="nav-text">Hexo cli</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BB%BA%E7%AB%8BSunkist-blog"><span class="nav-text">建立Sunkist blog</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#New-post"><span class="nav-text">New post</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Deploy"><span class="nav-text">Deploy</span></a></li><li class="nav-item nav-level-2"><a class="nav-link"><span class="nav-text"></span></a></li></ol></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Markdown-Cheat-Sheet"><span class="nav-text">Markdown Cheat Sheet</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Basic-Syntax"><span class="nav-text">Basic Syntax</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Extended"><span class="nav-text">Extended</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Preview"><span class="nav-text">Preview</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Blockquote"><span class="nav-text">Blockquote</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Ordered-List"><span class="nav-text">Ordered List</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Unordered-List"><span class="nav-text">Unordered List</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Code"><span class="nav-text">Code</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Horizontal-Rule"><span class="nav-text">Horizontal Rule</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Fenced-Code-Block"><span class="nav-text">Fenced Code Block</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Footnote"><span class="nav-text">Footnote</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Definition-List"><span class="nav-text">Definition List</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Task-List"><span class="nav-text">Task List</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Highlight"><span class="nav-text">Highlight</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Subscript"><span class="nav-text">Subscript</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Superscript"><span class="nav-text">Superscript</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-text">Reference</span></a></li></ol></li></ol>
     </div>
 </div>
         </aside>
