@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>卡內基溝通與人際關係</title>
+    <url>/2022/10/16/carnegie/how-to-win-friends-and-influence-people-1/</url>
+    <content><![CDATA[<h1 id="卡內基溝通與人際關係"><a href="#卡內基溝通與人際關係" class="headerlink" title="卡內基溝通與人際關係"></a>卡內基溝通與人際關係</h1><h2 id="成為更友善的人"><a href="#成為更友善的人" class="headerlink" title="成為更友善的人"></a>成為更友善的人</h2><ol>
+<li>不批評、不責備、不抱怨。</li>
+<li>給予真誠的讚賞與感謝。</li>
+<li>引發他人心中的渴望。</li>
+<li>真誠的關心他人。</li>
+<li>經常微笑。</li>
+<li>姓名對任何人而言，都是最悅耳的語音。</li>
+<li>聆聽，鼓勵別人多談他自己的事。</li>
+<li>談論他人感興趣的話題。</li>
+<li>衷心讓他人覺得他很重要。</li>
+</ol>
+<h2 id="使別人贊同你的想法"><a href="#使別人贊同你的想法" class="headerlink" title="使別人贊同你的想法"></a>使別人贊同你的想法</h2><ol start="10">
+<li>唯一能自爭辯中獲得好處的辦法，是避免爭辯。</li>
+<li>尊重他人的意見，切勿對他說：你錯了。</li>
+<li>如果是你錯了，立即斷然承認。</li>
+<li>以友善的態度開始。</li>
+<li>設法使他立即說：「對、對。」</li>
+<li>多讓他說話。</li>
+<li>讓他覺得，這主意是他想到的。</li>
+<li>真誠地試圖以他人的角度去了解一切。</li>
+<li>同情他人的想法與願望。</li>
+<li>訴求更崇高的動機。</li>
+<li>將你的想法做戲劇化的說明。</li>
+<li>提出挑戰。</li>
+</ol>
+<h2 id="做一位領導人"><a href="#做一位領導人" class="headerlink" title="做一位領導人"></a>做一位領導人</h2><ol start="22">
+<li>凡事皆以真誠的讚賞與感謝為前提。</li>
+<li>以間接的語句指出他人的錯誤。</li>
+<li>先說自己的錯在那裡，然後再指正他人的錯誤。</li>
+<li>用問問題來取代直接的要求。</li>
+<li>一定要顧到他人的面子。</li>
+<li>只要稍有改進，即給予讚賞，「嘉勉要誠懇，讚美要大方。」</li>
+<li>給他一個他願意全力追求的美譽。</li>
+<li>多多鼓勵，要讓他覺得這過錯很容易改正。</li>
+<li>使他覺得照你的意見去做會很開心。</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>carnegie</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>如何停止憂慮開創人生</title>
     <url>/2022/10/16/carnegie/how-to-stop-worrying-%EF%BC%86-start-living/</url>
     <content><![CDATA[<h1 id="如何停止憂慮開創人生"><a href="#如何停止憂慮開創人生" class="headerlink" title="如何停止憂慮開創人生"></a>如何停止憂慮開創人生</h1><h2 id="克服憂慮的準則"><a href="#克服憂慮的準則" class="headerlink" title="克服憂慮的準則"></a>克服憂慮的準則</h2><ol>
@@ -77,88 +121,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo 筆記 - 安裝</title>
-    <url>/2021/10/04/blog/hexo-note/</url>
-    <content><![CDATA[<h1 id="Hexo-筆記-安裝"><a href="#Hexo-筆記-安裝" class="headerlink" title="Hexo 筆記 - 安裝"></a>Hexo 筆記 - 安裝</h1><h2 id="node-js"><a href="#node-js" class="headerlink" title="node.js"></a>node.js</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://nodejs.org/en/</span><br></pre></td></tr></table></figure>
-<h2 id="Hexo-cli"><a href="#Hexo-cli" class="headerlink" title="Hexo cli"></a>Hexo cli</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-
-<h2 id="建立Sunkist-blog"><a href="#建立Sunkist-blog" class="headerlink" title="建立Sunkist blog"></a>建立Sunkist blog</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init sunkist_blog</span><br><span class="line">cd sunkist_blog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
-
-<h2 id="New-post"><a href="#New-post" class="headerlink" title="New post"></a>New post</h2><p><code>$ hexo new [layout] &lt;title&gt;</code></p>
-<h2 id="Deploy"><a href="#Deploy" class="headerlink" title="Deploy"></a>Deploy</h2><p><code>hexo clean &amp;&amp; hexo deploy</code></p>
-<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>Reference:</p>
-<ul>
-<li><a class="link"   href="https://hexo.io/docs/" >https://hexo.io/docs/<i class="fas fa-external-link-alt"></i></a></li>
-<li><a class="link"   href="https://hexo.io/zh-tw/docs/configuration" >https://hexo.io/zh-tw/docs/configuration<i class="fas fa-external-link-alt"></i></a></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>卡內基溝通與人際關係</title>
-    <url>/2022/10/16/carnegie/how-to-win-friends-and-influence-people-1/</url>
-    <content><![CDATA[<h1 id="卡內基溝通與人際關係"><a href="#卡內基溝通與人際關係" class="headerlink" title="卡內基溝通與人際關係"></a>卡內基溝通與人際關係</h1><h2 id="成為更友善的人"><a href="#成為更友善的人" class="headerlink" title="成為更友善的人"></a>成為更友善的人</h2><ol>
-<li>不批評、不責備、不抱怨。</li>
-<li>給予真誠的讚賞與感謝。</li>
-<li>引發他人心中的渴望。</li>
-<li>真誠的關心他人。</li>
-<li>經常微笑。</li>
-<li>姓名對任何人而言，都是最悅耳的語音。</li>
-<li>聆聽，鼓勵別人多談他自己的事。</li>
-<li>談論他人感興趣的話題。</li>
-<li>衷心讓他人覺得他很重要。</li>
-</ol>
-<h2 id="使別人贊同你的想法"><a href="#使別人贊同你的想法" class="headerlink" title="使別人贊同你的想法"></a>使別人贊同你的想法</h2><ol start="10">
-<li>唯一能自爭辯中獲得好處的辦法，是避免爭辯。</li>
-<li>尊重他人的意見，切勿對他說：你錯了。</li>
-<li>如果是你錯了，立即斷然承認。</li>
-<li>以友善的態度開始。</li>
-<li>設法使他立即說：「對、對。」</li>
-<li>多讓他說話。</li>
-<li>讓他覺得，這主意是他想到的。</li>
-<li>真誠地試圖以他人的角度去了解一切。</li>
-<li>同情他人的想法與願望。</li>
-<li>訴求更崇高的動機。</li>
-<li>將你的想法做戲劇化的說明。</li>
-<li>提出挑戰。</li>
-</ol>
-<h2 id="做一位領導人"><a href="#做一位領導人" class="headerlink" title="做一位領導人"></a>做一位領導人</h2><ol start="22">
-<li>凡事皆以真誠的讚賞與感謝為前提。</li>
-<li>以間接的語句指出他人的錯誤。</li>
-<li>先說自己的錯在那裡，然後再指正他人的錯誤。</li>
-<li>用問問題來取代直接的要求。</li>
-<li>一定要顧到他人的面子。</li>
-<li>只要稍有改進，即給予讚賞，「嘉勉要誠懇，讚美要大方。」</li>
-<li>給他一個他願意全力追求的美譽。</li>
-<li>多多鼓勵，要讓他覺得這過錯很容易改正。</li>
-<li>使他覺得照你的意見去做會很開心。</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>carnegie</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2021/10/04/blog/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>人性的弱點</title>
     <url>/2022/10/02/carnegie/how-to-win-friends-and-influence-people/</url>
     <content><![CDATA[<h1 id="人性的弱點"><a href="#人性的弱點" class="headerlink" title="人性的弱點"></a>人性的弱點</h1><h2 id="人際關係的三大技巧"><a href="#人際關係的三大技巧" class="headerlink" title="人際關係的三大技巧"></a>人際關係的三大技巧</h2><ol>
@@ -212,6 +174,44 @@
     <title>推薦親友送免費上網30天優惠-今網寬頻</title>
     <url>/2023/07/16/promotion/%E6%8E%A8%E8%96%A6%E8%A6%AA%E5%8F%8B%E9%80%81%E5%85%8D%E8%B2%BB%E4%B8%8A%E7%B6%B230%E5%A4%A9%E5%84%AA%E6%83%A0-%E4%BB%8A%E7%B6%B2%E5%AF%AC%E9%A0%BB/</url>
     <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/10/04/blog/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hexo 筆記 - 安裝</title>
+    <url>/2021/10/04/blog/hexo-note/</url>
+    <content><![CDATA[<h1 id="Hexo-筆記-安裝"><a href="#Hexo-筆記-安裝" class="headerlink" title="Hexo 筆記 - 安裝"></a>Hexo 筆記 - 安裝</h1><h2 id="node-js"><a href="#node-js" class="headerlink" title="node.js"></a>node.js</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://nodejs.org/en/</span><br></pre></td></tr></table></figure>
+<h2 id="Hexo-cli"><a href="#Hexo-cli" class="headerlink" title="Hexo cli"></a>Hexo cli</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<h2 id="建立Sunkist-blog"><a href="#建立Sunkist-blog" class="headerlink" title="建立Sunkist blog"></a>建立Sunkist blog</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init sunkist_blog</span><br><span class="line">cd sunkist_blog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+
+<h2 id="New-post"><a href="#New-post" class="headerlink" title="New post"></a>New post</h2><p><code>$ hexo new [layout] &lt;title&gt;</code></p>
+<h2 id="Deploy"><a href="#Deploy" class="headerlink" title="Deploy"></a>Deploy</h2><p><code>hexo clean &amp;&amp; hexo deploy</code></p>
+<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>Reference:</p>
+<ul>
+<li><a class="link"   href="https://hexo.io/docs/" >https://hexo.io/docs/<i class="fas fa-external-link-alt"></i></a></li>
+<li><a class="link"   href="https://hexo.io/zh-tw/docs/configuration" >https://hexo.io/zh-tw/docs/configuration<i class="fas fa-external-link-alt"></i></a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
   </entry>
   <entry>
     <title>markdown_cheatsheet</title>
